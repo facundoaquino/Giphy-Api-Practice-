@@ -10,7 +10,7 @@ window.onload = async () => {
 
     if(!getUserSession()){
         alert('You must loggin to view yours favourites giphys')
-        location.href='Giphy-Api-Practice-/'
+        location.href='/Giphy-Api-Practice-/'
     }
 
 	const favourites = getFavourites().join()
