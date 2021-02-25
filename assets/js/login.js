@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
 
 	if (username.trim().length > 3) {
 		setUserSession(username)
-		location.href = '/'
+		location.href = 'Giphy-Api-Practice-/'
 	} else {
 		const p = form.querySelector('p')
 		 
