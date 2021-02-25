@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.description {
+	background-color: aquamarine;
+	position: sticky;
+	top: 0;
+}
+
+ 
+
+.imageContainer i {
+	cursor: pointer;
+	 left: 15px;
+	 bottom: 15px;
+	 color: rgb(167, 167, 18);
+} 
