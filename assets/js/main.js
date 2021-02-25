@@ -38,7 +38,7 @@ window.onload = async () => {
 
 			addFavourite(giftId)
 		} else {
-			location.href = '/login.html'
+			location.href = 'login.html'
 		}
 	})
 }
